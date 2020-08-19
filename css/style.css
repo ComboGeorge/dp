@@ -1,0 +1,95 @@
+/*test page*/
+
+.main-slider{
+    padding:0;
+    margin:0;
+}
+
+
+/*index.php*/
+
+.title_label{
+    margin-top:20px;
+}
+.begin_btn{
+    margin-top:20px;
+}
+h1{
+    text-align: center;
+}
+.lk>p{
+    font-size:20px;
+    color:blue;
+    cursor: pointer;
+}
+.enter_form{
+    opacity:0;
+    top: -20px;
+    position:relative;
+    transition: .5s;
+}
+.main_title{
+    margin-top:250px;
+    margin-bottom:50px;
+}
+
+
+/*lk*/
+.header{
+    height:70px;
+    width:100%;
+    background-color:skyblue;
+}
+.header>h1{
+    color:white;
+    margin-top:10px;
+}
+.header>a{
+    color:white;
+    position:relative;
+    left:1010px;
+    top:-60px;
+}
+.width_percent{
+    max-width:100%;
+}
+.width_px{
+    max-width:100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin:0 auto;
+}
+.delete_btn{
+    width:33px;
+    background-image:url(../img/red.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.details{
+    margin-top:250px;
+}
+.footer{
+    height:70px;
+    width:100%;
+    background-color:skyblue;
+}
+.footer>h1{
+    color:white;
+    padding-top:30px;
+    font-size:14px;
+}
+.h2{
+    text-align: center;
+}
+.det{
+    margin: 0 auto;
+}
+thead{
+    text-align: center;
+}
+#report{
+    position:relative;
+    margin-left: 43%;
+    margin-right: 43%;
+    width:19%;
+}

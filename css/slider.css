@@ -1,0 +1,61 @@
+.slider{
+    width:760px;
+    height:150px;
+    position:relative;
+}
+.slide{
+    height:inherit;
+    width:inherit;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    opacity: 0;
+}
+.prev-button{
+    position:absolute;
+    left:0;
+    bottom:-100px;
+    width:182px;
+}
+.next-button{
+    position:absolute;
+    left:0;
+    bottom:-50px;
+    width:182px;
+}
+.active-slide{
+    z-index: 20;
+    opacity:1;
+}
+.nav-button{
+    margin:5px;
+    width:43px;
+    height:38px;
+}
+.send_answers_button{
+    margin-left:260px;
+    margin-top:30px;
+    width: 258px;
+}
+.select-group{
+    width:300px;
+}
+.select_div{
+    padding:0;
+}
+.radiobtn{
+    width:25px;
+    height:25px;
+}
+.labels{
+    font-size: 20px;
+    position:relative;
+    bottom:6px;
+}
+.questions{
+    font-size:20px;
+}
+.navigation{
+    margin-top:200px;
+}
